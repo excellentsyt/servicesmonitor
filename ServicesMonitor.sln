@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServiceMonitor", "ServicesMonitor\ServicesMonitor.vcxproj", "{4E2A3B27-55BC-4003-AF5D-D6957C87AA20}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServiceMonitorClient", "server\server.vcxproj", "{C01BFDDF-694E-44B2-93FA-C2DFDA165E13}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ServiceMonitorTestService", "service\service.vcxproj", "{5E76CE7A-1C4C-48F8-9539-55A935C36EAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E2A3B27-55BC-4003-AF5D-D6957C87AA20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4E2A3B27-55BC-4003-AF5D-D6957C87AA20}.Debug|Win32.Build.0 = Debug|Win32
+		{4E2A3B27-55BC-4003-AF5D-D6957C87AA20}.Release|Win32.ActiveCfg = Release|Win32
+		{4E2A3B27-55BC-4003-AF5D-D6957C87AA20}.Release|Win32.Build.0 = Release|Win32
+		{C01BFDDF-694E-44B2-93FA-C2DFDA165E13}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C01BFDDF-694E-44B2-93FA-C2DFDA165E13}.Debug|Win32.Build.0 = Debug|Win32
+		{C01BFDDF-694E-44B2-93FA-C2DFDA165E13}.Release|Win32.ActiveCfg = Release|Win32
+		{C01BFDDF-694E-44B2-93FA-C2DFDA165E13}.Release|Win32.Build.0 = Release|Win32
+		{5E76CE7A-1C4C-48F8-9539-55A935C36EAE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5E76CE7A-1C4C-48F8-9539-55A935C36EAE}.Debug|Win32.Build.0 = Debug|Win32
+		{5E76CE7A-1C4C-48F8-9539-55A935C36EAE}.Release|Win32.ActiveCfg = Release|Win32
+		{5E76CE7A-1C4C-48F8-9539-55A935C36EAE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
