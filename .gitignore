@@ -45,3 +45,6 @@ Temporary Items
 # =========================
 .sdf
 .suo
+*.vcxproj
+*.filters
+*.suo

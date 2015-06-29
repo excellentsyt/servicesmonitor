@@ -3,7 +3,7 @@ Documentation of Server Monitor 1.0
 ************************
 *******Objectives*******
 ************************
-We currently run a number of Win32 executables which provide network support for Trainz client installations. At the current time, these are started manually and not automatically monitored, which means that a software failure can lead to a 48-hour service outage before being detected and rectified.
+We currently run a number of Win32 executables which provide network support for the game client installations. At the current time, these are started manually and not automatically monitored, which means that a software failure can lead to a 48-hour service outage before being detected and rectified.
 
 We need a tool which monitors and takes certain automated actions. The tool should be kept as simple as possible (probably a Win32 console app written in C/++)  for ease of maintenance as it will be extended with new functionality over time.
 
